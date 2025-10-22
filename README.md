@@ -24,7 +24,7 @@
    - GET /automations/{id} - Get automation
    - PUT /automations/{id} - Update automation
    - DELETE /automations/{id} - Delete automation
-
+```
 code is actually production-grade! You have:
 ```
 ✅ Clean architecture (routers, db layer separation)
@@ -68,8 +68,8 @@ code is actually production-grade! You have:
    ✅ Type validation (Pydantic)
    ✅ Database relationships
    ✅ RESTful design
-
-   ```
+```
+```
    # ==================== COMPLETE FILE STRUCTURE ====================
 
 db/items.py should have:
@@ -106,4 +106,5 @@ routers/automations.py should have:
 ├── GET    /automations/{id}    → read_automation()
 ├── PUT    /automations/{id}    → update_automation()
 └── DELETE /automations/{id}    → delete_automation()
+
 ```
