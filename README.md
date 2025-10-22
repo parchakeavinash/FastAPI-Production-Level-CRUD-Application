@@ -1,16 +1,20 @@
 # FastAPI-Production-Level-CRUD-Application
-# ==================== HOW TO RUN ====================
-"""
+## ==========HOW TO RUN ============
 1. Install dependencies:
+   ```
    pip install fastapi uvicorn sqlalchemy pydantic slowapi
-
-2. Run the server:
+```
+3. Run the server:
+```
    uvicorn main:app --reload
+   ```
 
-3. Open API docs:
+4. Open API docs:
+```
    http://localhost:8000/docs
+   ```
 
-4. Test the endpoints:
+5. Test the endpoints:
    - POST /items/ - Create item
    - GET /items/{item_id} - Get item
    - PUT /items/{item_id} - Update item
@@ -20,5 +24,4 @@
    - GET /automations/{id} - Get automation
    - PUT /automations/{id} - Update automation
    - DELETE /automations/{id} - Delete automation
-"""
 
