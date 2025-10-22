@@ -1,8 +1,15 @@
 # FastAPI-Production-Level-CRUD-Application
 ## HOW TO RUN
-1. Install dependencies:
+1.  Create and activate virtual environment:
+   ```
+python -m venv myenv
+myenv\Scripts\activate.ps1  # Windows PowerShell
+```
+  
+2. Install dependencies:
    ```
    pip install fastapi uvicorn sqlalchemy pydantic slowapi
+```
 ```
 3. Run the server:
 ```
@@ -13,7 +20,7 @@
 ```
    http://localhost:8000/docs
    ```
-
+```
 5. Test the endpoints:
    - POST /items/ - Create item
    - GET /items/{item_id} - Get item
