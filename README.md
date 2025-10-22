@@ -1,5 +1,5 @@
 # FastAPI-Production-Level-CRUD-Application
-## ==========HOW TO RUN ============
+## HOW TO RUN
 1. Install dependencies:
    ```
    pip install fastapi uvicorn sqlalchemy pydantic slowapi
