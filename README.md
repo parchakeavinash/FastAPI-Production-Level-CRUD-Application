@@ -25,7 +25,7 @@
    - PUT /automations/{id} - Update automation
    - DELETE /automations/{id} - Delete automation
 ```
-code is actually production-grade! You have:
+code is actually production-grade! we have:
 ```
 ✅ Clean architecture (routers, db layer separation)
 ✅ Dependency injection
